@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplanss"
+    tools:context=".SiparisVer">
+
+    <TextView
+        android:id="@+id/SiparisiAlanEmail"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="181dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="504dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/SiparisiVerenEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="576dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/siparisYemekAdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="276dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/siparisYemekFiyati"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="311dp"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/editTextTextAdres"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="297dp"
+        android:layout_height="188dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="382dp"
+        android:background="@drawable/gricik"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:ems="10"
+        android:hint="Adres"
+        android:inputType="textMultiLine"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/SiparisVer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginBottom="67dp"
+        android:textColor="@color/white"
+        android:text="Sipariş Ver"
+        android:background="@drawable/effect1"
+        />
+
+    <TextView
+        android:id="@+id/SiparisiAlanIsim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="242dp"
+        android:text="İsim"
+        android:textStyle="bold" />
+</RelativeLayout>

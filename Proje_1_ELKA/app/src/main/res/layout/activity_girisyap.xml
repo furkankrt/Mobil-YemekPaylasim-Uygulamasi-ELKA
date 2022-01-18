@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animationCache="false"
+    android:background="@drawable/backkkkkk"
+    tools:context=".girisyap">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            //E MAİL TAMAM
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/loginemail"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="15dp"
+                android:hint="E-mail"
+                android:textColorHint="#9D9D9D"
+
+                app:boxStrokeWidth="2dp"
+                app:boxStrokeWidthFocused="1dp"
+
+                app:hintTextColor="#797979"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+                <!-- boxStrokeWidth kutu focus almadığındaki çizgi -->
+
+                <EditText
+                    android:id="@+id/emailgir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="@color/black"
+                    android:textStyle="bold" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/loginsifre"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/loginemail"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:hint="Şifre"
+                android:textColorHint="#9D9D9D"
+
+                app:boxStrokeWidth="2dp"
+                app:boxStrokeWidthFocused="1dp"
+
+                app:hintTextColor="#797979"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+                <!-- boxStrokeWidth kutu focus almadığındaki çizgi -->
+
+                <EditText
+                    android:id="@+id/sifregir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="322dp"
+                    android:ems="10"
+
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/black" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/giris"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/loginsifre"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="33dp"
+                android:layout_marginBottom="65dp"
+                android:backgroundTint="@color/teal_700"
+                android:text="GİRİŞ YAP" />
+
+            <Button
+                android:id="@+id/btnkayitol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/loginsifre"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="73dp"
+                android:layout_marginBottom="67dp"
+                android:backgroundTint="@color/teal_700"
+                android:text="Kayit Ol" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

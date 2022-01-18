@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "542273574533",
+    "project_id": "elka-643de",
+    "storage_bucket": "elka-643de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542273574533:android:b8aa59971eff62dac47bec",
+        "android_client_info": {
+          "package_name": "com.example.proje_1_elka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542273574533-9rkvrsukdjgtbdmujgudlpujhq5kjivb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt8J8goNrgokYwyRlD-aJPHOgSvsYDljE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542273574533-9rkvrsukdjgtbdmujgudlpujhq5kjivb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
